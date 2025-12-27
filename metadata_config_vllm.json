@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "model_name": "models/Qwen2.5-7B-Instruct",
+    "model_type": "vllm",
+    "track": "internal_reasoning",
+    "base_model_type": "Open weight model",
+    "base_model_name": "models/Qwen2.5-7B-Instruct",
+    "dataset": "cure_bench_pharse_2",
+    "additional_info": "Submission using vLLM for accelerated inference"
+  },
+  "vllm_config": {
+    "tensor_parallel_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 4096,
+    "dtype": "bfloat16"
+  },
+  "dataset": {
+    "dataset_name": "cure_bench_pharse_2",
+    "dataset_path": "curebench_testset_phase2.jsonl",
+    "description": "CureBench 2025 test questions"
+  }
+}
