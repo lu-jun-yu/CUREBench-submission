@@ -1,0 +1,9 @@
+{
+  "model_name": "gpt-4o-1120",
+  "model_type": "ChatGPTModel",
+  "track": "internal_reasoning",
+  "base_model_type": "API",
+  "base_model_name": "gpt-4o-1120",
+  "dataset": "cure_bench_pharse_1",
+  "additional_info": "Submission using configuration file"
+}

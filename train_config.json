@@ -1,0 +1,27 @@
+{
+  "training": {
+    "model_path": "models/Qwen3-0.6B",
+    "dataset_path": "curebench_valset_pharse1.jsonl",
+    "output_dir": "models/Qwen3-0.6B-GRPO-CUREBench",
+    "epochs": 3,
+    "batch_size": 4,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 8,
+    "max_prompt_length": 512,
+    "max_completion_length": 1024,
+    "num_generations": 8,
+    "training_mode": "full_parameter"
+  },
+  "grpo": {
+    "note": "Using TRL default values for learning_rate, beta, temperature, lr_scheduler, etc."
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX 3090 24GB",
+    "precision": "bf16",
+    "gradient_checkpointing": true
+  },
+  "few_shot": {
+    "enabled": true,
+    "excluded_ids": ["U9PHZ83RKYV8", "wzkMQ7uHtlLs"]
+  }
+}
