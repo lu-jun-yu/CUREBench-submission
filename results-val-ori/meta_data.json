@@ -1,0 +1,9 @@
+{
+  "model_name": "models/Qwen3-0.6B",
+  "model_type": "vllm",
+  "track": "internal_reasoning",
+  "base_model_type": "Open weight model",
+  "base_model_name": "models/Qwen3-0.6B",
+  "dataset": "cure_bench_pharse_1",
+  "additional_info": "Submission using vLLM for accelerated inference"
+}
