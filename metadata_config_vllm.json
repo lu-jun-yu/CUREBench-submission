@@ -15,14 +15,8 @@
     "dtype": "bfloat16"
   },
   "dataset": {
-<<<<<<< HEAD
-    "dataset_name": "cure_bench_pharse_1",
-    "dataset_path": "curebench_valset_pharse1.jsonl",
-    "description": "CureBench 2025 val questions"
-=======
     "dataset_name": "cure_bench_pharse_2",
     "dataset_path": "curebench_testset_phase2.jsonl",
     "description": "CureBench 2025 test questions"
->>>>>>> ee1f7549e59bd97c4c2103fe03d1cc3ed5bf94ba
   }
 }
