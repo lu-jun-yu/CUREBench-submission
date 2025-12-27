@@ -531,29 +531,3 @@ scikit-learn>=1.0.0       # 评估指标
 | **混合精度** | bfloat16 + 梯度检查点，显存优化 |
 
 ---
-
-## 引用
-
-如果本项目对您的研究有帮助，请考虑引用：
-
-```bibtex
-@misc{curebench2025,
-  title={GRPO-based Biomedical QA with Lightweight LLMs},
-  author={Your Name},
-  year={2025},
-  howpublished={CUREBench Competition},
-  url={https://curebench.ai}
-}
-```
-
----
-
-## License
-
-本项目仅供学术研究使用。
-
-## Support
-
-如有问题，请通过以下方式联系：
-1. 提交 [GitHub Issue](https://github.com/your-repo/issues)
-2. 查看 [CUREBench官网](https://curebench.ai) 获取竞赛相关信息
